@@ -18,7 +18,7 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/jameslegoff92/four-card-feature
 - Live Site URL: https://jameslegoff92.github.io/four-card-feature/
 
 ## My process
