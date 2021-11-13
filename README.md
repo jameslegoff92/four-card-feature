@@ -1,61 +1,46 @@
 ## Table of contents
-
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 ### Links
 
-- Solution URL: [https://github.com/jameslegoff92/four-card-feature
+- Solution URL: https://github.com/jameslegoff92/four-card-feature
 - Live Site URL: https://jameslegoff92.github.io/four-card-feature/
 
 ## My process
 
+1. I begin by analyzing both the mobile and desktop design to see how my HTML markup needs to be structured.
+3. The next step would consist of seeing if any design patterns are repeated. If so, my css classes need to take these design patterns into consideration.
+4. Begin coding using the mobile first approach.
+5. End by refactoring my code.
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- BEM Methodology
+- Sass
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Estimated time to complete project: 2.5 hours.
+Actual time to complete project: 2 hours, 23mins, 31 secs.
+Time spent refactoring: 14mins, 46secs.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+The challenge was pretty straight forward, however there were a few moments that slowed down the coding process. Those were. . . 
 
-### Continued development
+  1. Getting the svg to move to the right of the div.
+  2. Converting the mobile column design into the desktop design.
+  3. Getting the font-color to match.
+  4. Finding the right values for the box-shadow effect.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+This project taught me effective ways to solve 1,3 and 4. For #2, I learned the difference between thinking of a solution to a problem, and applying it. The imagined solution doesn't always go as smoothly as one hopes haha.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Frontend Mentor - https://www.frontendmentor.io/profile/jameslegoff92
