@@ -1,0 +1,14 @@
+{
+  "name": "four-card-feature-section-master",
+  "version": "1.0.0",
+  "description": "Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}

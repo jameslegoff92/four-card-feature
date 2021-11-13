@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$light-gray: hsl(0, 0%, 98%);
+$content-opacity: 65%;
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, * ::before, * ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $light-gray;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+//Mobile Header Styling
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 3.75rem 2.1875rem 0px;
+  text-align: center;
+
+  .wrapper__title {
+    font-size: 1.5rem;
+    font-weight: 200;
+    opacity: $content-opacity;
+  }
+
+  .wrapper__subtitle {
+    font-weight: 700;
+    margin-bottom: 0.9375rem;
+    opacity: $content-opacity;
+  }
+
+  .wrapper__text {
+    color: $grayish-blue;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    opacity: $content-opacity;
+  }
+}
+
+//Mobile Main Content Styling
+.container {
+  padding: 60px 35px 0px;
+  
+  .content {
+    background-color: white;
+    border-radius: 0.3125rem;
+    border-top: $cyan solid 0.25rem;
+    box-shadow: 0 0.1875rem 0.625rem rgb(0 0 0 / 0.2);
+    margin: 0 auto 1.25rem;
+    padding: 1.875rem 1.875rem 0.9375rem;
+    position: relative;
+    max-width: 19.0625rem;
+    
+    .content__title {
+      margin-bottom: 0.25rem;
+      opacity: $content-opacity;
+    }
+
+    .content__text {
+      color: $grayish-blue;
+      font-size: 0.8rem;
+      line-height: 1.5;
+      margin-bottom: 2.5rem;
+      opacity: $content-opacity;
+    }
+
+    .content__img {
+      text-align: right;
+    }
+  }
+  .content--red {
+    border-top: $red solid 0.25rem;
+  }
+  .content--orange {
+    border-top: $orange solid 0.25rem;
+  }
+  .content--blue {
+    border-top: $blue solid 0.25rem;
+  }
+}
+
+// Desktop CSS Styling
+@media only screen and (min-width: 822px) {
+  // Desktop Header Styling
+  .wrapper {
+    .wrapper__title {
+      font-size: 1.9rem;
+      letter-spacing: 0.2px;
+    }
+
+    .wrapper__subtitle {
+     font-size: 1.9rem;
+     letter-spacing: 0.3px;
+    }
+
+    .wrapper__text {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      padding: 0 35%;
+    }
+  }
+
+  //Desktop Main Content Styling
+  .container {
+    display: flex;
+    column-gap: 1.5625rem;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    
+    .content {
+      margin: auto 0;
+      max-width: 21.875rem;
+    }
+  }
+  .container-2 {
+   display: flex;
+   flex-direction: column;
+   row-gap: 1.5625rem;
+  }
+}
